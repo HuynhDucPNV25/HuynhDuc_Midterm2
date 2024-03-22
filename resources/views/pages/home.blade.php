@@ -1,0 +1,19 @@
+@extends('layouts.master')
+@section('startProd')
+    @include('components.startProd')
+@endsection
+@section('startWhyChooseUs')
+    @include('components.choose')
+@endsection
+@section('startWeHelp')
+    @include('components.help')
+@endsection
+@section('popularProd')
+    @include('components.popularProd')
+@endsection
+@section('startTestimonial')
+    @include('components.testimonial')
+@endsection
+@section('blog')
+    @include('pages.blog')
+@endsection
